@@ -62,6 +62,8 @@ void inverte(int n, int *vet){
     }
 }
 
+
+
 int main(){
     int var1 = 5;
     int var2 = 4;
