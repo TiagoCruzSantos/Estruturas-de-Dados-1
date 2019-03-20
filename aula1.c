@@ -38,16 +38,29 @@ int trocaInteiros(int *a, int *b){
    }
 }
 
+void ex4(int *p, int t, int a){
+    for(int i = 0; i < t; i++){
+        *p = a;
+        p++;
+    }
+}
+
 int main(){
-    ex1();
     int var1 = 5;
     int var2 = 4;
+    int *vetor = malloc(sizeof(int) * 10);
+    ex1();
     ex2(&var1, &var2);
     if(trocaInteiros(&var1, &var2)){
         printf("TROCADO: %d %d\n", var1, var2);
     }else{
         printf("ORIGINAL: %d %d\n", var1, var2);
     }
-
+    ex4(vetor, 10, 5);
+    for(int i = 0; i < 10; i++){
+        printf("%d, ", vetor[i]);
+    }
+    printf("\n");
+    free(vetor);
     return 0;
 }
