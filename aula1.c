@@ -53,6 +53,15 @@ void ex4(int *p, int t, int a){
     }
 }
 
+void inverte(int n, int *vet){
+    int aux;
+    for(int i = 0; i < (n/2); i++){
+        aux = vet[i];
+        vet[i] = vet[n - i];
+        vet[n - i] = aux;
+    }
+}
+
 int main(){
     int var1 = 5;
     int var2 = 4;
