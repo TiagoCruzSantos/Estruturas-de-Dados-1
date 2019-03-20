@@ -1,3 +1,11 @@
+/*
+
+Tiago da Cruz Santos
+
+AULA 1
+
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
