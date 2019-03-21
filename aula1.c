@@ -61,8 +61,8 @@ void inverte(int n, int *vet){//exercicio 6
     int aux;
     for(int i = 0; i < (n/2); i++){
         aux = vet[i];
-        vet[i] = vet[n - i];
-        vet[n - i] = aux;
+        vet[i] = vet[n - (i+1)];
+        vet[n - (i+1)] = aux;
     }
 }
 
@@ -111,6 +111,23 @@ int main(){
     }
 
     ex4(vetor, 10, 5);
+
+    for(int i = 0; i < 10; i++){
+        printf("%d ", vetor[i]);
+    }
+    printf("\n");
+
+
+    for(int i = 0; i < 10; i++){
+        vetor[i] = i;
+    }
+
+    for(int i = 0; i < 10; i++){
+        printf("%d ", vetor[i]);
+    }
+    printf("\n");
+
+    inverte(10, vetor);
 
     for(int i = 0; i < 10; i++){
         printf("%d ", vetor[i]);
