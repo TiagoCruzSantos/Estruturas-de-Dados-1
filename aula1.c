@@ -11,7 +11,7 @@ AULA 1
 #include <string.h>
 
 
-void ex1(){//exercicio 1
+void ex1(){ //exercicio 1
     int inteiro, *pInteiro;
     float real, *pReal;
     char caractere, *pCharactere;
@@ -29,7 +29,7 @@ void ex1(){//exercicio 1
     printf("%d---%.2f---%c\n", inteiro, real, caractere);
 }
 
-void ex2(void *a, void *b){//exercicio 2
+void ex2(void *a, void *b){ //exercicio 2
     if(a >= b){
         printf("%p\n", a);
     }else{
@@ -37,7 +37,7 @@ void ex2(void *a, void *b){//exercicio 2
     }
 }
 
-int trocaInteiros(int *a, int *b){//exercicio 3
+int trocaInteiros(int *a, int *b){ //exercicio 3
    int help;
    
    if(*a > *b){
@@ -50,14 +50,14 @@ int trocaInteiros(int *a, int *b){//exercicio 3
    }
 }
 
-void ex4(int *p, int t, int a){//exercicio 4
+void ex4(int *p, int t, int a){ //exercicio 4
     for(int i = 0; i < t; i++){
         *p = a;
         p++;
     }
 }
 
-void inverte(int n, int *vet){//exercicio 6
+void inverte(int n, int *vet){ //exercicio 6
     int aux;
     for(int i = 0; i < (n/2); i++){
         aux = vet[i];
@@ -66,7 +66,7 @@ void inverte(int n, int *vet){//exercicio 6
     }
 }
 
-int strContida(char *p, char *c){//exercicio 7
+int strContida(char *p, char *c){ //exercicio 7
     int a = strlen(p);
     int b = strlen(c);
     int count = 0;
@@ -100,17 +100,17 @@ int main(){
     char *frase1 = malloc(sizeof(char) * 30);
     char *frase2 = malloc(sizeof(char) * 20);
     
-    ex1();
+    ex1();// exercicio 1
 
-    ex2(&var1, &var2);
+    ex2(&var1, &var2);//exercicio 2
 
-    if(trocaInteiros(&var1, &var2)){
+    if(trocaInteiros(&var1, &var2)){ //exercicio 3
         printf("TROCADO: %d %d\n", var1, var2);
     }else{
         printf("ORIGINAL: %d %d\n", var1, var2);
     }
 
-    ex4(vetor, 10, 5);
+    ex4(vetor, 10, 5);//exercicio 4
 
     for(int i = 0; i < 10; i++){
         printf("%d ", vetor[i]);
@@ -127,7 +127,7 @@ int main(){
     }
     printf("\n");
 
-    inverte(10, vetor);
+    inverte(10, vetor);// exercicio 6
 
     for(int i = 0; i < 10; i++){
         printf("%d ", vetor[i]);
@@ -140,7 +140,7 @@ int main(){
     frase1[strlen(frase1) - 1] = '\0';
     frase2[strlen(frase2) - 1] = '\0';
 
-    if(strContida(frase1, frase2)){
+    if(strContida(frase1, frase2)){// exercicio 7
         printf("%s está contido em %s\n", frase2, frase1);
     }else{
         printf("%s não está contido em %s\n", frase2, frase1);
