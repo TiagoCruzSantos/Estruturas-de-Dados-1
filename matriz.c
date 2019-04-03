@@ -16,6 +16,7 @@ Matriz* inicializaMatriz (int nlinhas, int ncolunas){
         mtr->mat[i] = malloc(sizeof(int)*ncolunas);
     }
     return mtr;
+
 }
 
 
@@ -70,14 +71,22 @@ Matriz* transposta (Matriz* mat){
         }
     }
     return trans;
+    /*
+    f(n) = n + m*n
+    O(n) = m*n
+    */
 }
 
 /*
 Matriz* multiplicacao (Matriz* mat1, Matriz* mat2){
     Matriz* mult = malloc(sizeof(Matriz));
-    for(int i = 0; i < mat2->l){
-
+    mult->l = mat1->l;
+    mult->c = mat2->c;
+    mult->mat = malloc(sizeof(int*)*mult->l);
+    for(int i = 0; i < mult->l; i++){
+        mult->mat[i] = malloc(sizeof(int)*mult->c);
     }
+    
 }
 */
 
