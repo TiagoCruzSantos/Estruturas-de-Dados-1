@@ -1,0 +1,13 @@
+#Na versão Makefile.2, caso o .h fosse alterado ele não seria compilado. 
+#Agora as alterações no .h também são refletidas
+#A nova macro DEPS armazena todas as dependencias de cabeçalhos
+
+CC=gcc
+CFLAGS=-I.
+DEPS = matriz.h
+
+%.o: %.c $(DEPS)
+	$(CC) -c -o $@ $< $(CFLAGS)
+
+matriz: matriz.o progmat.o
+	$(CC) -o matriz progmat.o matriz.o 

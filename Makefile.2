@@ -1,0 +1,10 @@
+#Esta nova versão define um conjunto de flags
+#dessa forma o compilador poderia ser alterado apenas alterando a variavel CC
+
+#Colocandos os arquivos objetos *.o  na lista de dependencia e na regra, o comando make sabe que ele precisa compilar os  .c individualmente.
+
+CC=gcc
+CFLAGS=-I.
+
+matriz: matriz.o progmat.o
+	$(CC) -o matriz progmat.o matriz.o 
