@@ -20,7 +20,6 @@ Matriz* inicializaMatriz (int nlinhas, int ncolunas){
 }
 
 
-
 void modificaElemento (Matriz* mat, int linha, int coluna, int elem){
     if(mat == NULL && linha > mat->l && coluna > mat->c){
         printf("Invalido\n");
@@ -58,13 +57,7 @@ int recuperaNLinhas (Matriz* mat){
 
 
 Matriz* transposta (Matriz* mat){
-    Matriz* trans = malloc(sizeof(Matriz));
-    trans->l = mat->c;
-    trans->c = mat->l;
-    trans->mat = malloc(sizeof(int*)*trans->l);
-    for(int i = 0; i < trans->l; i++){
-        trans->mat[i] = malloc(sizeof(int)*trans->c);
-    }
+    Matriz* trans = inicializaMatriz(mat->c, mat->l);
     for(int i = 0; i < mat->l; i++){
         for(int j = 0; j < mat->c; j++){
             trans->mat[i][j] = mat->mat[j][i];
@@ -77,18 +70,15 @@ Matriz* transposta (Matriz* mat){
     */
 }
 
-/*
+
 Matriz* multiplicacao (Matriz* mat1, Matriz* mat2){
-    Matriz* mult = malloc(sizeof(Matriz));
-    mult->l = mat1->l;
-    mult->c = mat2->c;
-    mult->mat = malloc(sizeof(int*)*mult->l);
-    for(int i = 0; i < mult->l; i++){
-        mult->mat[i] = malloc(sizeof(int)*mult->c);
+    Matriz* mult = inicializaMatriz(mat1->l, mat2->c);
+    for(int i = 0; i < mat2->c; i++){
+        for(int j = 0; mat2->l; j++){
+        }
     }
-    
 }
-*/
+
 
 void imprimeMatriz(Matriz* mat){
     for(int i = 0; i < mat->l; i++){
