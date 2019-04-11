@@ -1,19 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-typedef struct item{
-    int a;
-}Num;
-
-typedef struct celula{
-    Num b;
-    struct celula* prox;
-}node;
-
-typedef struct lista{
-    node* prim;
-    node* ult;
-}sent;
+#include "testelistaenc.h"
 
 sent* startList(){
     sent* newList = malloc(sizeof(sent));
@@ -22,18 +9,22 @@ sent* startList(){
     return newList;
 }
 
-int vazia(sent* a){
+int eh_vazia(sent* a){
     return (a->prim == NULL);
 }
 
-void insere(item a, sent* b){
+void insere(item *a, sent* b){
     node* novo = malloc(sizeof(node));
-    
     if(b->ult == NULL){
         b->prim = b->ult = novo;
+    } else {
+        b->ult->prox = novo;
+        b->ult = b->ult->prox;
     }
+    b->ult->b = *a;
+    b->ult->prox = NULL;
 }
 
-int main(){
-
+void retira(int num, sent* lista){
+    
 }

@@ -9,14 +9,14 @@
 
 CC=gcc
 CFLAGS=-I. -Wall -g  -lm
-DEPS = matriz.h
-OBJ = matriz.o progmat.o
+DEPS = testelistaenc.h
+OBJ = testelistaenc.o testedecadeia.o
 
 %.o: %.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
 
 matriz: $(OBJ)
 	$(CC) -o $@ $^ $(CFLAGS)
-
+	rm -f *.o
 clean:
 	rm -f *.o
