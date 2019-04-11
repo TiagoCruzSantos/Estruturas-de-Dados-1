@@ -6,8 +6,7 @@ OBJ = teste.o loja.o
 %.o: %.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
 
-progListaArr: $(OBJ)
+teste: $(OBJ)
 	$(CC) -o $@ $^ $(CFLAGS)
-
 clean:
 	rm -f *.o

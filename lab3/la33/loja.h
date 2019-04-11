@@ -23,11 +23,15 @@ void criar(Lista* new);
 
 void Insere(produto x, Lista *itens);
 
-void Retira(produto p, Lista *itens, produto *Item);
+void printar_lista(Lista* itens);
+
+void Retira(int p, Lista *itens, produto *Item);
 
 int Vazia(Lista itens);
 
 int Quantidade(Lista itens);
+
+void printar_produto(produto p);
 
 produto buscacodigo(Lista *l, int codigo);
 

@@ -6,7 +6,7 @@ void criar(Lista* new){
 }
 
 int existe(produto x, Lista *lista){
-    for(int i = lista->primeiro - 1; i < lista->ultimo; i++){
+    for(int i = lista->primeiro - 1; i < lista->ultimo-1; i++){
         if(x.codigo == lista->itens[i].codigo){
             return 1;
         }
@@ -47,15 +47,19 @@ int Vazia(Lista itens){
 
 
 
-void Retira(produto p, Lista *itens, produto *Item){
+void Retira(int p, Lista *itens, produto *Item){
     int aux = -1;
     int aux2;
     if(Vazia(*itens)){
         printf("Invalido\n");
         return;
     }
-    for(int i = 0; i < itens->ultimo; i++){
-        if(p.codigo == itens->itens[i].codigo){
+    for(int i = 0; i < itens->ultimo-1; i++){
+        if(p == itens->itens[i].codigo){
+            if(itens->itens[i].qtd > 0){
+                printf("Produto em estoque não pode ser removido\n");
+                return;
+            }
             aux = i+1;
             break;
         }
@@ -65,21 +69,53 @@ void Retira(produto p, Lista *itens, produto *Item){
         return;
     }
     *Item = itens->itens[aux-1];
-    for(aux2 = aux; aux2 < itens->ultimo; aux2++){
+    for(aux2 = aux; aux2 < itens->ultimo-1; aux2++){
         itens->itens[aux2 - 1] = itens->itens[aux2];
     }
+    itens->ultimo--;
 }
 
 int Quantidade(Lista itens){
     return (itens.ultimo - 1);
 }
 
-void printar_produto(){
-    
+void printar_produto(produto p){
+    printf("\n");
+    printf("Codigo: %d\n", p.codigo);
+    printf("Nome: %s", p.nome);
+    printf("Preço: %.2f\n", p.preco);
+    printf("Quamtidade: %d\n", p.qtd);
 }
 
-void pritar_lista(Lista itens){
-    for(int i = 0; i < itens->ultimo; i++){
-
+void printar_lista(Lista* itens){
+    for(int i = 0; i < itens->ultimo-1; i++){
+        printar_produto(itens->itens[i]);
     }
+}
+
+produto buscacodigo(Lista *l, int codigo){
+    produto prod;
+    prod.codigo = 0;
+    for(int i = 0; i < 29; i++){
+        prod.nome[i] = '0';
+    }
+    prod.nome[29] = '\n';
+    prod.preco = 0;
+    prod.qtd = 0;
+    for(int i = 0; i < l->ultimo - 1; i++){
+        if(codigo == l->itens[i].codigo){
+            return (l->itens[i]);
+        }
+    }
+    return prod;
+}
+
+produto maisBarato(Lista *l){
+    produto prod_aux = l->itens[0];
+    for(int i = 1; i < l->ultimo - 1; i++){
+        if(l->itens[i].preco < prod_aux.preco){
+            prod_aux = l->itens[i];
+        }
+    }
+    return prod_aux;
 }
