@@ -20,3 +20,5 @@ sent* startList();
 int eh_vazia(sent* a);
 
 void insere(item *a, sent* b);
+
+void retira(int num, sent* lista);

@@ -26,5 +26,9 @@ void insere(item *a, sent* b){
 }
 
 void retira(int num, sent* lista){
-    
+    node* ant = NULL;
+    node* per = lista->prim;
+    while(per != NULL && per->b != num){
+        
+    }
 }
