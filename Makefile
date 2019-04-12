@@ -15,7 +15,7 @@ OBJ = testelistaenc.o testedecadeia.o
 %.o: %.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
 
-matriz: $(OBJ)
+testedecadeia: $(OBJ)
 	$(CC) -o $@ $^ $(CFLAGS)
 	rm -f *.o
 clean:

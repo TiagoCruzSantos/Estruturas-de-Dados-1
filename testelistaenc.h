@@ -19,6 +19,12 @@ sent* startList();
 
 int eh_vazia(sent* a);
 
-void insere(item *a, sent* b);
+void insere(item a, sent* b);
 
 void retira(int num, sent* lista);
+
+void destroi(sent* a);
+
+item criar_item();
+
+void imprime(sent* a);
