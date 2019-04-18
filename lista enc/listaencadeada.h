@@ -34,7 +34,7 @@ int Vazia(TipoLista* Lista);
 void Insere(Produto x, TipoLista *Lista);
 
 /** Busca um produto pelo codigo - retornando a celula inteira*/
-TipoCelula* BuscaCodigo(int codigo, TipoLista *Lista);
+TipoCelula* BuscaCodigo(int codigo, TipoLista *lista);
 
 /*Retira um elemento da lista */
 void Retira(int codigo, TipoLista *Lista, Produto *Item);
@@ -51,8 +51,6 @@ Produto  criaProduto(int cod, char *nome, int qtd, float preco);
 void ImprimeProduto(Produto p);
 
 Produto maisBarato(TipoLista* lista);
-
-void Imprime(Produto item);
 
 void DestruirLista(TipoLista* lista);
 

@@ -30,13 +30,17 @@ int main(int argc, char *argv[])
   //Insere(item, &lista);
   ImprimeLista(&lista);
   Retira(4, &lista, &item);
+  printf("\n\n\n");
   ImprimeLista(&lista);
-  //TipoCelula* p = BuscaCodigo(3, &lista);
-  //ImprimeProduto(p->Item);
+  TipoCelula* p = BuscaCodigo(3, &lista);
+  printf("\n\n\n");
+  printf("Produto buscado: \n");
+  ImprimeProduto(p->item);
+  printf("\n\n\n");
   item = maisBarato(&lista);
-  printf("----------\n");
+  printf("Produto mais barato: \n");
   ImprimeProduto(item);
-  printf("----------\n");
+  printf("\n\n\n");
   DestruirLista(&lista);
   return(0);
 }

@@ -42,6 +42,10 @@ void Retira(int codigo, TipoLista *lista, Produto *Item){
         printf("Tal produto não existe\n");
         return;
     }
+    if(atual->item.qtd > 0){
+        printf("Não foi possivel remover\n");
+        return;
+    }
     anterior->proximo = atual->proximo;
     *Item = atual->item;
     //free(atual->item.nome);
@@ -83,4 +87,16 @@ Produto maisBarato(TipoLista* lista){
         aux = aux->proximo;
     }
     return pre;
+}
+
+TipoCelula* BuscaCodigo(int codigo, TipoLista *lista){
+    TipoCelula* aux = lista->primeiro;
+    while(aux != NULL && aux->item.codigo != codigo){
+        aux = aux->proximo;
+    }
+    if(aux == NULL){
+        printf("Codigo não existe\n");
+        return NULL;
+    }
+    return aux;
 }
