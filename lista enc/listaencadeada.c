@@ -100,3 +100,13 @@ TipoCelula* BuscaCodigo(int codigo, TipoLista *lista){
     }
     return aux;
 }
+
+int Quantidade(TipoLista* lista){
+    int i = 0;
+    TipoCelula* aux = lista->primeiro;
+    while(aux != NULL){
+        i++;
+        aux = aux->proximo;
+    }
+    return i;
+}

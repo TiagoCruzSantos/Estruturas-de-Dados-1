@@ -43,7 +43,7 @@ void Retira(int codigo, TipoLista *Lista, Produto *Item);
 void ImprimeLista(TipoLista* Lista);
 
 /*Quantidade de elementos na lista*/
-int Quantidade(TipoLista Lista);
+int Quantidade(TipoLista* lista);
 
 /**FUNCOES OPACAS DO STRUCT PRODUTO **/
 Produto  criaProduto(int cod, char *nome, int qtd, float preco);
@@ -53,6 +53,5 @@ void ImprimeProduto(Produto p);
 Produto maisBarato(TipoLista* lista);
 
 void DestruirLista(TipoLista* lista);
-
 
 #endif /* LISTAENC_H_ */

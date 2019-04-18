@@ -29,9 +29,11 @@ int main(int argc, char *argv[])
   Insere(item, &lista);
   //Insere(item, &lista);
   ImprimeLista(&lista);
+  printf("Quantidade de produtos na lista: %d\n", Quantidade(&lista));
   Retira(4, &lista, &item);
   printf("\n\n\n");
   ImprimeLista(&lista);
+  printf("Quantidade de produtos na lista: %d\n", Quantidade(&lista));
   TipoCelula* p = BuscaCodigo(3, &lista);
   printf("\n\n\n");
   printf("Produto buscado: \n");
