@@ -114,10 +114,6 @@ void DestroiLista(ListaHet* lista){
     while(aux != NULL){
         aux2 = aux;
         aux = aux->proximo;
-        printf("Aux end: %p\n", aux2);
-        printf("dono aux: %p\n", aux2->dono);
-        printf("item aux: %p\n", aux2->item);
-        free(aux2->dono);
         free(aux2->item);
         free(aux2);
     }

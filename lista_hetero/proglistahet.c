@@ -61,6 +61,9 @@ int main()
 
     printf ("Imprimindo a lista novamente \n");
     imprime (lista);
+    free(maria);
+    free(jose);
+    free(sofia);
     DestroiLista(lista);
 
     printf ("\n **** PARABENS!!! **** \n\n");
