@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 typedef struct pilha{
-    int num;
+    float num;
     struct pilha *prox;
     int id;
 }Cell;
 
-void push(int a, Cell* pilha);
+void push(float a, Cell* pilha);
 
 void pop(Cell* pilha);
 
@@ -21,8 +21,8 @@ void mult(Cell* pilha);
 
 void add(Cell *pilha);
 
-void multi(Cell *pilha);
-
 void sub(Cell* pilha);
 
 void pdiv(Cell* pilha);
+
+int eh_vazia(Cell* pilha);

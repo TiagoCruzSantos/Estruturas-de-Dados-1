@@ -75,7 +75,7 @@ int main()
     printf ("---------- Imprime fila-----------\n");
     //Imprime a fila com todas as pessoas
     imprime_fila(f);
-
+/*
     
     Fila* f_maiores = cria_fila(); 
     Fila* f_menores = cria_fila(); 
@@ -94,10 +94,8 @@ int main()
     printf ("---------- Imprime fila Menores-----------\n");
     //Imprime a fila com todas as pessoas menores que 60
     imprime_fila(f_menores);
-    
-    destroi_fila(f_maiores);
-    destroi_fila(f_menores);
+*/
     //libera a memória ocupada pela fila 
     f = destroi_fila(f);
-    destroi_pessoa(pessoa11);
+
 }

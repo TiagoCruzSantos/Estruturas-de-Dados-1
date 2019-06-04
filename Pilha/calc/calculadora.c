@@ -1,6 +1,6 @@
 #include "calculadora.h"
 
-void push(int a, Cell* pilha){
+void push(float a, Cell* pilha){
     Cell* novo = malloc(sizeof(Cell));
     novo->id = 1;
     novo->num = a;
@@ -20,7 +20,7 @@ void printx(Cell* pilha){
         printx(pilha->prox);
     }
     if(pilha->id == 1){
-        printf("%d ", pilha->num);
+        printf("%.2f ", pilha->num);
     }
 }
 
@@ -50,7 +50,7 @@ void add(Cell* pilha){
     pop(pilha);
 }
 
-void multi(Cell * pilha){
+void mult(Cell * pilha){
     pilha->prox->prox->num = pilha->prox->num * pilha->prox->prox->num;
     pop(pilha);
 
@@ -64,4 +64,8 @@ void sub(Cell* pilha){
 void pdiv(Cell *pilha){
     pilha->prox->prox->num = pilha->prox->num / pilha->prox->prox->num;
     pop(pilha);
+}
+
+int eh_vazia(Cell* pilha){
+    return (pilha->prox == NULL);
 }

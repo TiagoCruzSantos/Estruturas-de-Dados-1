@@ -32,3 +32,16 @@ Fila* destroi_fila(Fila* f){
     destroi_pilha(f->auxiliar);
     free(f);
 }
+
+void separa_filas (Fila* f, Fila* f_maiores, Fila* f_menores){
+    Pessoa* p;
+    while(!vazia_pilha(f->principal)){
+        p = retira(f);
+        if(retorna_idade(p) > 60){
+            insere(p, f_maiores);
+        }else{
+            insere(p, f_menores);
+        }
+    }
+}
+

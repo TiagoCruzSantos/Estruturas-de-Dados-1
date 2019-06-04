@@ -3,22 +3,34 @@
 
 int main(){
     Cell* pilha = cria_pilha();
-    push(4, pilha);
-    push(9, pilha);
-    push(9, pilha);
-    push(7, pilha);
-    push(1, pilha);
-    push(5, pilha);
-    printar(pilha);
-    multi(pilha);
-    printar(pilha);
-    add(pilha);
-    printar(pilha);
-    pdiv(pilha);
-    printar(pilha);
-    sub(pilha);
-    printar(pilha);
-    pop(pilha);
+    int n;
+    char c;
+    int k = 1;
+    printf("Teste\n>>> ");
+    while(k){
+        if(scanf("%d", &n) != 1){
+            scanf("%c", &c);
+            switch(c){
+                case '+':
+                    add(pilha);
+                    break;
+                case '-':
+                    sub(pilha);
+                    break;
+                case '/':
+                    pdiv(pilha);
+                    break;
+                case '*':
+                    mult(pilha);
+                    break;
+                default:
+                    k = 0;
+                    break;
+            }
+        }else{
+            push(n, pilha);
+        }
+    }
     printar(pilha);
     deleta_pilha(pilha);
     return 0;
