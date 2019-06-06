@@ -66,7 +66,7 @@ int consulta_ArvBin(ArvBin *raiz, int valor){
 
 void preOrdem_ArvBin(ArvBin *raiz){
     NO* aux = (*raiz);
-    printf("%d, ", aux->info);
+    printf("%d ", aux->info);
     if(aux->esq != NULL){
         preOrdem_ArvBin(&(aux->esq));
     }
@@ -80,12 +80,35 @@ void emOrdem_ArvBin(ArvBin* raiz){
     if(aux->esq != NULL){
         emOrdem_ArvBin(&(aux->esq));
     }
-    printf("%d, ", aux->info);
+    printf("%d ", aux->info);
     if(aux->dir != NULL){
         emOrdem_ArvBin(&(aux->dir));
     }
 }
 
-void pos(){
-    
+void posOrdem_ArvBin(ArvBin *raiz){
+    NO* aux = (*raiz);
+    if(aux->esq != NULL){
+        posOrdem_ArvBin(&(aux->esq));
+    }
+    if(aux->dir != NULL){
+        posOrdem_ArvBin(&(aux->dir));
+    }
+    printf("%d ", aux->info);
+}
+
+void libera_no(ArvBin *raiz){
+    NO* aux = (*raiz);
+    if(aux->esq != NULL){
+        libera_no(&(aux->esq));
+    }
+    if(aux->dir != NULL){
+        libera_no(&(aux->dir));
+    }
+    free(aux);
+}
+
+void libera_ArvBin(ArvBin *raiz){
+    libera_no(raiz);
+    free(raiz);
 }
