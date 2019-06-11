@@ -9,6 +9,7 @@ struct fila{
 
 Fila* cria_fila(void){
     Fila *novo = malloc(sizeof(Fila));
+    novo->pessoa = NULL;
     novo->prox = NULL;
 }
 
@@ -53,7 +54,9 @@ Fila *destroi_fila(Fila *f){
     while(aux2 != NULL){
         aux = aux2;
         aux2 = aux2->prox;
-        destroi_pessoa(aux->pessoa);
+        if(aux->pessoa != NULL){
+            destroi_pessoa(aux->pessoa);
+        }
         free(aux);
     }
     return NULL;
