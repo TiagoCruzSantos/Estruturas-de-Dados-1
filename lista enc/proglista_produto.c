@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
   Insere(item, &lista);
   item = criaProduto(5,"Uva", 5, 8);
   Insere(item, &lista);
-  //Insere(item, &lista);
+  Insere(item, &lista);
   ImprimeLista(&lista);
   printf("Quantidade de produtos na lista: %d\n", Quantidade(&lista));
   Retira(4, &lista, &item);

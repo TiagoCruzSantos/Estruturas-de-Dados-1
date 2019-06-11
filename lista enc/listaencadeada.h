@@ -6,7 +6,7 @@
 #include <string.h>
 
 
-typedef struct{
+typedef struct prod{
   int codigo;
   char *nome;
   float preco;
@@ -19,7 +19,7 @@ typedef struct TipoCelula {
   struct TipoCelula* proximo;
 } TipoCelula;
 
-typedef struct {
+typedef struct sentinela{
   TipoCelula *primeiro, *ultimo;
 } TipoLista;
 
