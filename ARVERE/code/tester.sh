@@ -39,6 +39,9 @@ tester_every(){
 
     # $3 = lista com os executaveis
     # Ex. "DesempenhoLista DesempenhoArvore DesempenhoAVL"
+    
+    # $4 = numero de repetições para cada programa
+
 
     for exe in $3; do
         for proc in $2; do
