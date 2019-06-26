@@ -2,17 +2,14 @@
 #include <stdlib.h>
 #include <sys/time.h>
 #include <string.h>
-#define M 7
-#define N 20
-#define TAMALFABETO 256
+#include "hash-lista.h"
 
 /* typedef unsigned int  TipoPesos[n]; */
-typedef char TipoChave[N];
+/*typedef char TipoChave[N];
 
 typedef unsigned TipoPesos[N][TAMALFABETO];
 
 typedef struct TipoItem {
-  /* outros componentes */
   TipoChave Chave;
 } TipoItem;
 
@@ -30,10 +27,12 @@ typedef struct TipoLista {
 } TipoLista;
 
 typedef TipoLista TipoDicionario[M];
-
+*/
 void FLVazia(TipoLista *Lista)
 { Lista->Primeiro = (TipoCelula *)malloc(sizeof(TipoCelula));
   Lista->Ultimo = Lista->Primeiro; Lista->Primeiro->Prox = NULL;
+  Lista->tamanho = 0;
+  Lista->colisoes = 0;
 }
 
 short Vazia(TipoLista Lista)
@@ -41,7 +40,12 @@ short Vazia(TipoLista Lista)
 
 void Ins(TipoItem x, TipoLista *Lista)
 { Lista->Ultimo->Prox = (TipoCelula *)malloc(sizeof(TipoCelula));
+  Lista->Ultimo->Prox->qtd = 1;
   Lista->Ultimo = Lista->Ultimo->Prox; Lista->Ultimo->Item = x;
+  if(Lista->tamanho != 0){
+    Lista->colisoes++;
+  }
+  Lista->tamanho++;
   Lista->Ultimo->Prox = NULL;
 }
 
@@ -58,7 +62,9 @@ void Ret(TipoApontador p, TipoLista *Lista, TipoItem *Item)
   free(q);
 }
 
-
+float cargaPesada(int tam, int qtd){
+   return ((float) qtd)/((float) tam) ;
+}
 
 void GeraPesos(TipoPesos p)
 { /* Gera valores randomicos entre 1 e 10.000 */
@@ -104,9 +110,14 @@ TipoApontador Pesquisa(TipoChave Ch, TipoPesos p, TipoDicionario T)
 }
 
 void Insere(TipoItem x, TipoPesos p, TipoDicionario T)
-{ if (Pesquisa(x.Chave, p, T) == NULL)
-  Ins(x, &T[h(x.Chave, p)]);
-  else printf(" Registro ja  esta  presente\n");
+{
+  TipoCelula* aux = Pesquisa(x.Chave, p, T);
+  if (aux == NULL){
+    Ins(x, &T[h(x.Chave, p)]);
+  }else {
+    aux->qtd++;
+    printf("qtd nova = %d\n", aux->qtd);
+  }
 }
 
 void Retira(TipoItem x, TipoPesos p, TipoDicionario T)
@@ -120,7 +131,7 @@ void Imp(TipoLista Lista)
 { TipoApontador Aux;
   Aux = Lista.Primeiro->Prox;
   while (Aux != NULL)
-    { printf("%.*s ", N, Aux->Item.Chave);
+    { printf("%s qtd = %d ", Aux->Item.Chave, Aux->qtd);
       Aux = Aux->Prox;
     }
 }
@@ -133,4 +144,20 @@ void Imprime(TipoDicionario Tabela)
       Imp(Tabela[i]);
       putchar('\n');
     }
+}
+
+int colisoes(TipoDicionario hash){
+    int coli = 0;
+    for(int i = 0; i < M; i++){
+        coli = coli + hash[i].colisoes;
+    }
+    return coli;
+}
+
+int elem(TipoDicionario hash){
+    int tam = 0;
+    for(int i = 0; i < M; i++){
+        tam = tam + hash[i].tamanho;
+    }
+    return tam;
 }

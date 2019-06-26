@@ -53,7 +53,7 @@ int main(int argc, char *argv[])
 
   //Imprime a tabela e a lista em cada posi��o
   Imprime(Tabela);
-
+  printf("M = %d, COLISÕES = %d, ELEMENTOS = %d, CARGA = %.2f\n", M, colisoes(Tabela), elem(Tabela), cargaPesada(M, elem(Tabela)));
   //Ter� que fazer uma nova fun��o para imprimir cada chave e cada valor
   //->> Imprimir chave e valor de ocorrencia
 

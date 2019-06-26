@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <sys/time.h>
 #include <string.h>
-#define M 7
+#define M 256
 #define N 20
 #define TAMALFABETO 256
 
@@ -27,11 +27,14 @@ typedef struct TipoCelula* TipoApontador;
 
 typedef struct TipoCelula {
   TipoItem Item;
+  int qtd;
   TipoApontador Prox;
 } TipoCelula;
 
 typedef struct TipoLista {
   TipoCelula *Primeiro, *Ultimo;
+  int colisoes;
+  int tamanho;
 } TipoLista;
 
 typedef TipoLista TipoDicionario[M];
@@ -63,5 +66,9 @@ void Imp(TipoLista Lista);
 
 void Imprime(TipoDicionario Tabela);
 
+int colisoes(TipoDicionario hash);
 
+int elem(TipoDicionario hash);
+
+float cargaPesada(int tam, int qtd);
 #endif

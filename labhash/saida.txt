@@ -1,0 +1,1019 @@
+Lorem
+ipsum
+dolor
+sit
+amet
+consectetur
+adipiscing
+elit
+Nulla
+aliquam
+nisi
+vel
+hendrerit
+dignissim
+ligula
+sem
+condimentum
+sem
+qtd nova = 1
+interdum
+scelerisque
+nibh
+arcu
+id
+ante
+Nunc
+iaculis
+tellus
+purus
+vitae
+luctus
+sem
+qtd nova = 2
+dictum
+non
+Ut
+erat
+magna
+auctor
+quis
+pulvinar
+vel
+qtd nova = 1
+volutpat
+eget
+leo
+Sed
+quis
+qtd nova = 1
+lorem
+sodales
+mattis
+erat
+qtd nova = 1
+vitae
+qtd nova = 1
+faucibus
+nunc
+Quisque
+laoreet
+tellus
+qtd nova = 1
+eu
+velit
+porttitor
+at
+efficitur
+felis
+consectetur
+qtd nova = 1
+Phasellus
+ac
+ligula
+qtd nova = 1
+non
+qtd nova = 1
+magna
+qtd nova = 1
+luctus
+qtd nova = 1
+dignissim
+qtd nova = 1
+Vivamus
+pharetra
+tincidunt
+urna
+ac
+qtd nova = 1
+tempor
+orci
+faucibus
+qtd nova = 1
+vel
+qtd nova = 2
+Vestibulum
+id
+qtd nova = 1
+tristique
+urna
+qtd nova = 1
+id
+qtd nova = 2
+vestibulum
+nisl
+Proin
+sit
+qtd nova = 1
+amet
+qtd nova = 1
+velit
+qtd nova = 1
+et
+nulla
+vehicula
+tempor
+qtd nova = 1
+nec
+vitae
+qtd nova = 2
+diam
+Morbi
+laoreet
+qtd nova = 1
+tincidunt
+qtd nova = 1
+lectus
+ac
+qtd nova = 2
+vestibulum
+qtd nova = 1
+velit
+qtd nova = 2
+Duis
+nec
+qtd nova = 1
+facilisis
+arcu
+qtd nova = 1
+a
+pharetra
+qtd nova = 1
+turpis
+Pellentesque
+facilisis
+qtd nova = 1
+nibh
+qtd nova = 1
+ac
+qtd nova = 3
+nisl
+qtd nova = 1
+convallis
+sed
+mollis
+massa
+rhoncus
+Cras
+viverra
+velit
+qtd nova = 3
+a
+qtd nova = 1
+hendrerit
+qtd nova = 1
+blandit
+Phasellus
+qtd nova = 1
+turpis
+qtd nova = 1
+ipsum
+qtd nova = 1
+iaculis
+qtd nova = 1
+vitae
+qtd nova = 3
+leo
+qtd nova = 1
+id
+qtd nova = 3
+imperdiet
+dapibus
+nisi
+qtd nova = 1
+In
+sollicitudin
+luctus
+qtd nova = 2
+lorem
+qtd nova = 1
+sed
+qtd nova = 2
+scelerisque
+qtd nova = 1
+sapien
+convallis
+qtd nova = 1
+at
+qtd nova = 2
+In
+qtd nova = 2
+sit
+qtd nova = 2
+amet
+qtd nova = 2
+lectus
+qtd nova = 1
+maximus
+elementum
+mauris
+vitae
+qtd nova = 4
+elementum
+qtd nova = 1
+arcu
+qtd nova = 2
+Nam
+accumsan
+quam
+eget
+qtd nova = 1
+orci
+qtd nova = 1
+venenatis
+eu
+qtd nova = 1
+laoreet
+qtd nova = 2
+ipsum
+qtd nova = 2
+mollis
+qtd nova = 1
+Maecenas
+eget
+qtd nova = 2
+egestas
+justo
+Etiam
+at
+qtd nova = 3
+ex
+nibh
+qtd nova = 2
+Aliquam
+nec
+qtd nova = 2
+nibh
+qtd nova = 3
+libero
+Curabitur
+accumsan
+qtd nova = 2
+pulvinar
+qtd nova = 1
+sem
+qtd nova = 3
+Donec
+elementum
+qtd nova = 2
+sapien
+qtd nova = 2
+id
+qtd nova = 4
+magna
+qtd nova = 2
+blandit
+qtd nova = 1
+luctus
+qtd nova = 3
+Pellentesque
+qtd nova = 1
+nec
+qtd nova = 3
+est
+nulla
+qtd nova = 2
+Integer
+odio
+sem
+qtd nova = 4
+sollicitudin
+qtd nova = 1
+quis
+qtd nova = 2
+maximus
+qtd nova = 2
+at
+qtd nova = 4
+dignissim
+qtd nova = 2
+eu
+qtd nova = 2
+dui
+Curabitur
+qtd nova = 2
+non
+qtd nova = 2
+posuere
+erat
+qtd nova = 2
+Duis
+qtd nova = 1
+fermentum
+urna
+qtd nova = 2
+quis
+qtd nova = 3
+sem
+qtd nova = 5
+tristique
+qtd nova = 1
+in
+condimentum
+qtd nova = 1
+velit
+qtd nova = 4
+rutrum
+In
+qtd nova = 3
+eu
+qtd nova = 3
+orci
+qtd nova = 2
+nec
+qtd nova = 4
+ex
+qtd nova = 1
+suscipit
+vestibulum
+qtd nova = 2
+eget
+qtd nova = 3
+non
+qtd nova = 3
+ipsum
+qtd nova = 3
+Praesent
+feugiat
+odio
+qtd nova = 1
+sit
+qtd nova = 3
+amet
+qtd nova = 3
+ipsum
+qtd nova = 4
+pellentesque
+ultrices
+eu
+qtd nova = 4
+non
+qtd nova = 4
+odio
+qtd nova = 2
+Praesent
+qtd nova = 1
+eu
+qtd nova = 5
+tempor
+qtd nova = 2
+enim
+eu
+qtd nova = 6
+efficitur
+qtd nova = 1
+justo
+qtd nova = 1
+Ut
+qtd nova = 1
+egestas
+qtd nova = 1
+lorem
+qtd nova = 2
+sed
+qtd nova = 3
+magna
+qtd nova = 3
+viverra
+qtd nova = 1
+rhoncus
+qtd nova = 1
+lacinia
+lacus
+aliquam
+qtd nova = 1
+Vestibulum
+qtd nova = 1
+ante
+qtd nova = 1
+ipsum
+qtd nova = 5
+primis
+in
+qtd nova = 1
+faucibus
+qtd nova = 2
+orci
+qtd nova = 3
+luctus
+qtd nova = 4
+et
+qtd nova = 1
+ultrices
+qtd nova = 1
+posuere
+qtd nova = 1
+cubilia
+Curae
+Sed
+qtd nova = 1
+in
+qtd nova = 2
+aliquet
+odio
+qtd nova = 3
+Donec
+qtd nova = 1
+elit
+qtd nova = 1
+enim
+qtd nova = 2
+venenatis
+qtd nova = 1
+tincidunt
+qtd nova = 2
+mauris
+qtd nova = 2
+ac
+qtd nova = 4
+sollicitudin
+qtd nova = 2
+accumsan
+qtd nova = 3
+purus
+qtd nova = 1
+Ut
+qtd nova = 2
+vitae
+qtd nova = 5
+neque
+nisl
+qtd nova = 2
+Donec
+qtd nova = 2
+rhoncus
+qtd nova = 2
+commodo
+tempor
+qtd nova = 3
+Nunc
+qtd nova = 1
+varius
+ut
+diam
+qtd nova = 1
+non
+qtd nova = 5
+egestas
+qtd nova = 2
+In
+qtd nova = 4
+ornare
+ante
+qtd nova = 2
+in
+qtd nova = 3
+aliquet
+qtd nova = 1
+aliquet
+qtd nova = 2
+mauris
+qtd nova = 3
+lectus
+qtd nova = 2
+ultrices
+qtd nova = 2
+dolor
+qtd nova = 1
+eget
+qtd nova = 4
+tristique
+qtd nova = 2
+nibh
+qtd nova = 4
+nunc
+qtd nova = 2
+a
+qtd nova = 2
+neque
+qtd nova = 1
+Fusce
+eget
+qtd nova = 5
+luctus
+qtd nova = 5
+nibh
+qtd nova = 5
+vitae
+qtd nova = 6
+pretium
+dui
+qtd nova = 2
+Praesent
+qtd nova = 2
+consequat
+lorem
+qtd nova = 3
+quis
+qtd nova = 4
+commodo
+qtd nova = 2
+rutrum
+qtd nova = 1
+Mauris
+laoreet
+qtd nova = 3
+tellus
+qtd nova = 2
+nec
+qtd nova = 5
+augue
+consequat
+qtd nova = 2
+id
+qtd nova = 5
+gravida
+quam
+qtd nova = 1
+dignissim
+qtd nova = 3
+Fusce
+qtd nova = 1
+bibendum
+lacinia
+qtd nova = 1
+ullamcorper
+Vivamus
+qtd nova = 1
+tincidunt
+qtd nova = 3
+enim
+qtd nova = 3
+ut
+qtd nova = 1
+viverra
+qtd nova = 2
+eleifend
+orci
+qtd nova = 4
+dolor
+qtd nova = 2
+vestibulum
+qtd nova = 3
+massa
+qtd nova = 1
+eu
+qtd nova = 7
+viverra
+qtd nova = 3
+ex
+qtd nova = 2
+magna
+qtd nova = 4
+at
+qtd nova = 5
+arcu
+qtd nova = 3
+Sed
+qtd nova = 2
+ante
+qtd nova = 3
+orci
+qtd nova = 5
+pulvinar
+qtd nova = 2
+sit
+qtd nova = 4
+amet
+qtd nova = 4
+quam
+qtd nova = 2
+dictum
+qtd nova = 1
+convallis
+qtd nova = 2
+pharetra
+qtd nova = 2
+lacus
+qtd nova = 1
+Curabitur
+qtd nova = 3
+lacus
+qtd nova = 2
+nisi
+qtd nova = 2
+mollis
+qtd nova = 2
+nec
+qtd nova = 6
+nibh
+qtd nova = 6
+egestas
+qtd nova = 3
+molestie
+porta
+quam
+qtd nova = 3
+Quisque
+qtd nova = 1
+urna
+qtd nova = 3
+lectus
+qtd nova = 3
+venenatis
+qtd nova = 2
+vitae
+qtd nova = 7
+aliquam
+qtd nova = 2
+ut
+qtd nova = 2
+posuere
+qtd nova = 2
+quis
+qtd nova = 5
+tortor
+Praesent
+qtd nova = 3
+id
+qtd nova = 6
+nibh
+qtd nova = 7
+sed
+qtd nova = 4
+nisl
+qtd nova = 3
+posuere
+qtd nova = 3
+faucibus
+qtd nova = 3
+Duis
+qtd nova = 2
+leo
+qtd nova = 2
+sapien
+qtd nova = 3
+scelerisque
+qtd nova = 2
+quis
+qtd nova = 6
+sapien
+qtd nova = 4
+eget
+qtd nova = 6
+sagittis
+placerat
+eros
+Aenean
+neque
+qtd nova = 2
+metus
+placerat
+qtd nova = 2
+sed
+qtd nova = 5
+libero
+qtd nova = 1
+nec
+qtd nova = 7
+vestibulum
+qtd nova = 4
+porttitor
+qtd nova = 1
+felis
+qtd nova = 2
+Vivamus
+qtd nova = 2
+pulvinar
+qtd nova = 3
+arcu
+qtd nova = 4
+vitae
+qtd nova = 8
+elit
+qtd nova = 2
+aliquet
+qtd nova = 3
+volutpat
+qtd nova = 1
+Donec
+qtd nova = 3
+in
+qtd nova = 4
+hendrerit
+qtd nova = 2
+elit
+qtd nova = 3
+Aenean
+qtd nova = 1
+tincidunt
+qtd nova = 4
+id
+qtd nova = 7
+erat
+qtd nova = 3
+quis
+qtd nova = 7
+semper
+Quisque
+qtd nova = 2
+in
+qtd nova = 5
+tincidunt
+qtd nova = 5
+diam
+qtd nova = 2
+sagittis
+qtd nova = 1
+tristique
+qtd nova = 3
+eros
+qtd nova = 1
+Fusce
+qtd nova = 2
+porta
+qtd nova = 1
+tristique
+qtd nova = 4
+lacus
+qtd nova = 3
+fringilla
+imperdiet
+qtd nova = 1
+neque
+qtd nova = 3
+scelerisque
+qtd nova = 3
+nec
+qtd nova = 8
+Nam
+qtd nova = 1
+consequat
+qtd nova = 3
+sapien
+qtd nova = 5
+nec
+qtd nova = 9
+rhoncus
+qtd nova = 3
+venenatis
+qtd nova = 3
+In
+qtd nova = 5
+faucibus
+qtd nova = 4
+non
+qtd nova = 6
+nisl
+qtd nova = 4
+eget
+qtd nova = 7
+porta
+qtd nova = 2
+0: sollicitudin qtd = 1 
+1: 
+2: feugiat qtd = 1 
+3: ornare qtd = 1 
+4: 
+5: 
+6: 
+7: 
+8: Lorem qtd = 2 maximus qtd = 1 
+9: vitae qtd = 1 
+10: Pellentesque qtd = 2 dui qtd = 1 
+11: 
+12: nisl qtd = 1 
+13: 
+14: Mauris qtd = 1 
+15: dictum qtd = 1 
+16: iaculis qtd = 2 felis qtd = 1 
+17: interdum qtd = 1 
+18: 
+19: sodales qtd = 1 
+20: Vivamus qtd = 1 
+21: 
+22: 
+23: 
+24: 
+25: 
+26: luctus qtd = 1 
+27: Ut qtd = 1 fermentum qtd = 1 
+28: 
+29: dolor qtd = 5 In qtd = 1 
+30: 
+31: porttitor qtd = 1 
+32: 
+33: 
+34: 
+35: 
+36: arcu qtd = 1 
+37: 
+38: 
+39: augue qtd = 1 
+40: 
+41: 
+42: 
+43: 
+44: rhoncus qtd = 1 
+45: 
+46: 
+47: 
+48: 
+49: 
+50: 
+51: condimentum qtd = 1 
+52: turpis qtd = 1 
+53: 
+54: facilisis qtd = 1 suscipit qtd = 1 
+55: 
+56: 
+57: 
+58: 
+59: purus qtd = 3 mauris qtd = 1 
+60: sagittis qtd = 1 
+61: 
+62: lacinia qtd = 1 bibendum qtd = 1 
+63: scelerisque qtd = 1 Etiam qtd = 1 
+64: 
+65: 
+66: 
+67: 
+68: 
+69: 
+70: quis qtd = 1 
+71: 
+72: et qtd = 1 
+73: 
+74: 
+75: pulvinar qtd = 1 
+76: 
+77: 
+78: 
+79: blandit qtd = 1 
+80: 
+81: dignissim qtd = 1 
+82: Praesent qtd = 1 tortor qtd = 1 
+83: 
+84: 
+85: ex qtd = 2 commodo qtd = 1 
+86: 
+87: 
+88: 
+89: 
+90: odio qtd = 1 
+91: primis qtd = 1 
+92: molestie qtd = 1 
+93: tristique qtd = 1 
+94: 
+95: hendrerit qtd = 1 
+96: 
+97: 
+98: 
+99: 
+100: 
+101: 
+102: libero qtd = 1 ullamcorper qtd = 1 
+103: egestas qtd = 1 
+104: gravida qtd = 1 
+105: Phasellus qtd = 1 
+106: 
+107: sem qtd = 1 
+108: nec qtd = 1 
+109: 
+110: Nunc qtd = 1 
+111: 
+112: auctor qtd = 1 
+113: Duis qtd = 1 
+114: 
+115: Integer qtd = 1 
+116: 
+117: 
+118: 
+119: 
+120: 
+121: 
+122: mollis qtd = 1 
+123: velit qtd = 1 
+124: quam qtd = 1 
+125: elementum qtd = 1 
+126: Morbi qtd = 1 
+127: 
+128: 
+129: imperdiet qtd = 1 
+130: ligula qtd = 1 Cras qtd = 1 
+131: 
+132: convallis qtd = 1 est qtd = 1 
+133: consectetur qtd = 2 nunc qtd = 1 
+134: ac qtd = 1 
+135: 
+136: 
+137: 
+138: Fusce qtd = 1 
+139: 
+140: efficitur qtd = 5 sed qtd = 3 Curabitur qtd = 1 
+141: urna qtd = 1 
+142: nisi qtd = 1 
+143: 
+144: 
+145: rutrum qtd = 1 
+146: eget qtd = 1 
+147: viverra qtd = 1 
+148: porta qtd = 1 
+149: 
+150: ultrices qtd = 1 
+151: eros qtd = 1 
+152: lacus qtd = 1 
+153: 
+154: dapibus qtd = 1 
+155: 
+156: 
+157: vestibulum qtd = 1 
+158: amet qtd = 1 
+159: 
+160: posuere qtd = 1 cubilia qtd = 1 pretium qtd = 1 
+161: mattis qtd = 1 pellentesque qtd = 1 
+162: Vestibulum qtd = 1 
+163: 
+164: 
+165: a qtd = 1 
+166: 
+167: aliquam qtd = 1 
+168: 
+169: 
+170: vel qtd = 1 
+171: 
+172: 
+173: lorem qtd = 1 
+174: magna qtd = 1 
+175: Nam qtd = 1 
+176: 
+177: 
+178: tincidunt qtd = 3 consequat qtd = 1 
+179: 
+180: venenatis qtd = 1 
+181: nibh qtd = 1 
+182: non qtd = 1 
+183: in qtd = 1 
+184: 
+185: justo qtd = 1 
+186: 
+187: eu qtd = 1 
+188: id qtd = 1 
+189: laoreet qtd = 1 
+190: Maecenas qtd = 1 varius qtd = 1 
+191: 
+192: erat qtd = 1 
+193: 
+194: Curae qtd = 2 placerat qtd = 1 
+195: 
+196: Donec qtd = 1 
+197: ante qtd = 1 
+198: 
+199: 
+200: vehicula qtd = 1 Aliquam qtd = 1 
+201: diam qtd = 1 
+202: 
+203: metus qtd = 1 
+204: aliquet qtd = 1 
+205: 
+206: 
+207: 
+208: 
+209: ipsum qtd = 5 at qtd = 1 
+210: 
+211: Proin qtd = 3 enim qtd = 1 
+212: 
+213: 
+214: 
+215: 
+216: 
+217: sit qtd = 1 
+218: neque qtd = 1 
+219: 
+220: elit qtd = 5 sapien qtd = 1 
+221: 
+222: tellus qtd = 1 eleifend qtd = 1 
+223: 
+224: 
+225: 
+226: Nulla qtd = 1 
+227: volutpat qtd = 1 
+228: tempor qtd = 1 
+229: pharetra qtd = 1 
+230: adipiscing qtd = 1 
+231: 
+232: 
+233: ut qtd = 1 
+234: 
+235: 
+236: 
+237: 
+238: faucibus qtd = 1 
+239: semper qtd = 1 
+240: fringilla qtd = 1 
+241: massa qtd = 1 
+242: lectus qtd = 3 accumsan qtd = 1 
+243: 
+244: 
+245: leo qtd = 1 
+246: 
+247: 
+248: 
+249: orci qtd = 2 nulla qtd = 1 
+250: 
+251: Aenean qtd = 1 
+252: 
+253: Sed qtd = 1 
+254: Quisque qtd = 1 
+255: 
+M = 256, COLISÕES = 30, ELEMENTOS = 152, CARGA = 0.59
